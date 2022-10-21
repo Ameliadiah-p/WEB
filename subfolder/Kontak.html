@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Menu websitse -->
+    <div>
+        <a href="../Home.html">Home</a>
+        <a href="Kontak.html">Kontak</a>      
+    </div>
+    
+    <!-- Bagian awal, isinya tag heading -->
+    <div>
+        <h1> Kontak Sekolah Koding </h1>
+        <h2> &nbsp; Tutorial online untuk belajar <span> membuat website </span></h2>   
+    </div>
+    
+    <!-- Membuat form -->
+    <form>
+        <fieldset>
+            <legend> Nama dan Pesan </legend>                    
+            <label for="Nama_user"> Nama </label>
+                <input type="text" placeholder="Nama user" value="Nama Anda" id="Nama_user">
+                <br>
+                <label for="Pesan_user"> Pesan </label>
+                <textarea cols="100" rows="7" id="Pesan_user"> Pesan saya adalah ..... </textarea>
+                <br>
+        </fieldset>
+    
+        <fieldset>
+            <legend> Pilihan Data </legend>
+            <label> Hobi </label> <br>
+                <input type="checkbox" name="hobi_user" value="0"> Menggambar <br>
+                <input type="checkbox" name="hobi_user" value="1" checked> Menulis  <br>
+                <input type="checkbox" name="hobi_user" value="2"> Menyanyi <br>
+                <br>
+            <label> Jenis Kelamin </label> <br>
+                <input type="radio" name="gender" value="0" checked> Laki-Laki <br>
+                <input type="radio" name="gender" value="1"> Perempuan <br>
+                <br>
+            <label> Pelajaran </label>
+                <select>
+                    <optgroup label="Frontend">
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                    </optgroup>
+                            
+                    <optgroup label="Backend">
+                        <option value="js">PHP</option>
+                        <option value="db">Database</option>
+                    </optgroup>   
+                </select>
+        </fieldset>
+    
+        <br>
+        <input type="submit" value="Kirim data">     
+    </form>
+    
+            <br><br>
+            <table border="1" height="100" width="500">
+                <caption> Daftar murid sekolahkoding </caption>
+                <tr>
+                    <th bgcolor="yellow"> Nama Murid </th>
+                    <th bgcolor="yellow"> Kota Asal </th>
+                </tr>
+                <tr>
+                    <td> Hilman </td>
+                    <td> Makasar </td>
+                </tr>
+                <tr>
+                    <td> Endy </td>
+                    <td> Pangkep </td>
+                </tr>
+            </table>
+    
+            <!-- List pada html -->
+            <ul>
+                <li>Hilman</li>
+                <li>Endi</li>
+            </ul>
+    
+            <dl>
+                <dt>Hilman</dt>
+                <dd>User pertama sekolah koding</dd>
+        
+                <dt>Endi</dt>
+                <dd>User kedua sekolah koding</dd>
+            </dl>
+    
+</body>
+</html
